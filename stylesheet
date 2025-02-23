@@ -1,0 +1,46 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: white; /* White container background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #007bff; /* Blue heading */
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control:read-only {
+    background-color: #e9ecef; /* Slightly darker gray for read-only */
+    cursor: default;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue button */
+    border-color: #007bff;
+}
+
+.results {
+    border: 1px solid #ced4da; /* Light border around results */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.results label {
+    margin-bottom: 5px;
+}
