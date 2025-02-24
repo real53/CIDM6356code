@@ -7,6 +7,16 @@
     <title>Financial Fraud Detection Model</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic inline styles for fallback if CDN fails */
+        body {
+            font-family: sans-serif;
+        }
+      .container {
+            max-width: 960px;
+            margin: 20px auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,8 +35,9 @@
 
         <p>Care should be taken in applying this analysis to financial statements from other countries.</p>
 
-        <p>Link to article: <a href="https://www.sciencedirect.com/science/article/pii/S1877042815059005?via%3Dihub" target="_blank">The model of fraud detection in financial statements by means of financial ratios</a></p>
-
+        <p>Link to article: <a href="https://www.sciencedirect.com/science/article/pii/S1877042815059005?via%3Dihub"
+                target="_blank">The model of fraud detection in financial statements by means of financial
+                ratios</a></p>
 
         <form id="inputForm">
             <div class="form-row">
@@ -67,7 +78,7 @@
         </form>
 
         <div class="results mt-4">
-            <h2>Results</h2>
+            <h2>Results:</h2>
             <div class="form-group">
                 <label for="algorithmScore">Algorithm Score:</label>
                 <input type="text" class="form-control" id="algorithmScore" readonly>
