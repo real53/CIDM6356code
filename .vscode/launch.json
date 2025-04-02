@@ -1,12 +1,28 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080/6356-fraud-detection-website-Kennon.html",
-            "webRoot": "${workspaceFolder}"
-        }
+        
+
+      {
+        "name": "Launch Chrome - Main Page",
+        "request": "launch",
+        "type": "chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+      },
+      {
+        "name": "Launch Chrome - Fraud Detection Page",
+        "request": "launch",
+        "type": "chrome",
+        "url": "http://localhost:8080/6356-fraud-detection-website-Kennon.html",
+        "webRoot": "${workspaceFolder}"
+      },
+      {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+      }
     ]
-}
+  }
